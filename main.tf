@@ -4,7 +4,7 @@ resource "aws_cloudformation_stack" "datalake" {
   parameters = {
    AdministratorName = "Paul Fries"
    AdministratorEmail = "pffries@amazon.com" 
-   CognitoDomain = "test"
+   CognitoDomain = "paulstest"
   }
   template_url = "https://s3.amazonaws.com/solutions-reference/data-lake-solution/latest/data-lake-deploy.template"
 }
