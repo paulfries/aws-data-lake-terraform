@@ -15,7 +15,7 @@ variable "CognitoDomain" {
 
 variable "DeployFederated" {
   description = "Deploy the Federated Teplate to connect a thrid-party SSO provider? (true/false)"
-  default     = null
+  default     = false
 }
 
 variable "AdFsHostname" {
