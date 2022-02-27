@@ -1,0 +1,5 @@
+AdministratorName  = "Paul Fries"
+AdministratorEmail = "pffries@amazon.com"
+CognitoDomain      = "pffries-test-federated"
+DeployFederated    = "true"
+AdFsHostname       = "paulstest.org"
